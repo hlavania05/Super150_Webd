@@ -1,0 +1,46 @@
+.box{
+    width : 100px;
+    height : 100px;
+    background-color:aquamarine;
+    animation-name : something;
+    animation-duration: 5s;
+    animation-delay : 2s;
+    animation-iteration-count: 5;
+
+    animation-direction: normal;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse;  */
+    animation-play-state: paused;
+}
+
+.box:hover{
+    /* animation-name : something;
+    animation-duration: 5s;
+    animation-delay : 2s;
+    animation-iteration-count: 3; */
+
+    /* animation-direction: normal; */
+    /* animation-direction: reverse;
+    animation-direction: alternate-reverse;
+    animation-fill-mode : forwards;    animation ko final state par rokna ho to */
+    animation-play-state: running;
+
+    
+}
+@keyframes something{
+    0%{
+        height : 100px;
+        width: 100px;
+        background-color: purple;
+    }
+    50%{
+        height : 400px;
+        width : 400px;
+        background-color: plum;
+    }
+    100%{
+        width : 200px;
+        height : 200px;
+        background-color: pink;
+    }
+}

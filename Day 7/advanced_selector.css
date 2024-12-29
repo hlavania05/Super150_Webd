@@ -1,0 +1,26 @@
+/* comibanator - descendent */
+div p{
+    color : rgb(245, 59, 90);
+}
+
+/* combinator - child */
+body>article>ul>li{
+    color : rgba(4, 159, 20, 0.192);
+}
+article>ul>li{
+    color : blue;
+}
+
+/* child with descendent */
+p a{
+    color :red;
+}
+p>a{
+    color : yellow;
+}
+section a{
+    color : green;
+}
+section p>a{
+    color : burlywood
+}

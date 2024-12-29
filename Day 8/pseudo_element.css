@@ -1,0 +1,26 @@
+/* -------pseudo elements------- */
+h2::after{
+    content : " lets study";
+    content : '\1F494';
+}
+
+h2::before{
+    content : " fbjbgerj ";
+}
+
+p::first-line{
+    background-color: aquamarine;
+    text-transform : uppercase;
+}
+p::first-letter{
+    background-color:bisque;
+    font-size:30px;
+}
+::marker{
+    color : red;
+}
+::selection{
+    color:rgba(128, 0, 128, 0.55);
+    background-color: rgb(255, 127, 185);
+}
+

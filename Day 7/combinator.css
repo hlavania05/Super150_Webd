@@ -1,0 +1,16 @@
+
+div>ul>h1+li{
+    color : red;
+} 
+
+/* it can be wrtten as  */
+/* -----adjecent sibing -------*/
+div>ul>h1+li{
+    color : blue;
+} 
+
+/* ------gen sibling -------*/
+div ul>h1~li{
+    color : green;
+}
+

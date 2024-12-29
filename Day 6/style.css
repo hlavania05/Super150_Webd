@@ -1,0 +1,29 @@
+/* element selector */
+p{
+    color : rgb(8, 6, 6);
+    background-color: bisque;
+}
+
+ /* id selector */
+ #id1{
+    background-color: rgb(131, 131, 167);
+ }
+
+  /* Class selector */
+.class1{
+    background-color : rgb(189, 165, 169);
+}
+
+/* attribute selector */
+input[type="text"]{
+    background-color: rgb(142, 177, 188);
+}
+
+/* Universal Selector */
+*{
+    border : 2px solid black;
+    padding : 6px;
+    font-size : 40px;
+    margin : 8px;
+}
+

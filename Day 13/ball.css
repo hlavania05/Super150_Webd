@@ -1,0 +1,39 @@
+.ball{
+    width : 80px;
+    height : 80px;
+    border-radius: 50%;
+    background-color: rgb(114, 172, 152);
+    border-top : 7px solid purple;
+    border-bottom : 7px solid rgb(70, 122, 146);
+    border-right : 7px solid rgb(243, 149, 201);
+    border-left : 7px solid rgb(115, 209, 167);
+
+    animation-name : ball;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function : ease;
+
+
+}
+/* .ball:hover{
+    animation-name : ball;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} */
+@keyframes ball{
+    0%{
+        transform : translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform : translateY(400px) rotate(180deg);
+        box-shadow: 0 50px 50px rgb(114, 172, 152, 0.5);
+    }
+    100%{
+        transform : translateY(0px) rotate(360deg);
+        
+    }
+    
+}   
+
+

@@ -1,0 +1,22 @@
+*{
+  margin:0;     
+  padding:0; 
+  /* Sirf zero value de rhe h to px unit lagane ki koi jarurat nhi h */
+}
+div{
+    border:20px solid black;
+    width:100px;
+    height:100px;
+    padding:10px;
+    Margin:100px;
+    /* visibility: hidden; */
+    display : none;
+}
+span{
+    border:20px solid black;
+    width:100px;
+    height:100px;
+    padding:10px;
+    Margin:100px;
+    display : inline-block;
+}

@@ -1,0 +1,32 @@
+/* ------hover---------- */
+h1{
+    color:rgb(15, 185, 185);
+}
+h1:hover{
+    color:brown;
+}
+
+/* ----------focus----------- */
+input{
+    background-color:rgb(188, 143, 145);
+}
+input:focus{
+    background-color:darkcyan;
+}
+
+/* ----------active----------- */
+/* a{
+    color : rgb(239, 84, 110);
+}
+a:active{
+    color:darkslategray;
+    font-size: larger;
+} */
+
+/* -----------visited----------- */
+a{
+    color:red;
+}
+a:visited{
+    color:green;
+}

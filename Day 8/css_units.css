@@ -1,0 +1,14 @@
+/* ul>li{
+    font-size: 2em;
+} */
+ul>li{
+    font-size:2rem;
+}
+section{
+    width:200vw;
+    background-color:rgb(224, 161, 84);
+}
+div{
+    width:50%;
+    background-color: rgb(81, 159, 159);
+}
